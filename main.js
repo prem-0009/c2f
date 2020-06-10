@@ -1,6 +1,12 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+function getInput(n) {
+  return process.argv[n + 2];
+}
+
+const result=getInput(0);
+console.log(result+' degree Celsius is '+(1.8*result+32)+' degrees in Fahrenheit.');
 
 
 
@@ -36,12 +42,6 @@
   first one, getInput(0) should be all you need.
  ******************************************************************************************/
 
-function getInput(n) {
-  return process.argv[n + 2];
-}
-
-const result=getInput(0);
-console.log(result+' degree Celsius is '+(1.8*result+32)+' degrees in Fahrenheit.');
 
 
 
